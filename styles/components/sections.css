@@ -26,8 +26,22 @@
       bottom: 0;
       padding: 2.4rem;
 
+      &:has(.text-lg) {
+        padding: 1.2rem;
+      }
+
       h2 {
+        display: -webkit-box;
+        display: -moz-box;
+        -webkit-line-clamp: 3; /* defines the number os lines that we want to be displayed */
+        -moz-line-clamp: 3;
+        -webkit-box-orient: vertical; /* defines the orientation for the ellipsis text overflow */
+        -moz-box-orient: vertical;
+
         margin-top: 0.8rem;
+        max-height: 6rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   }

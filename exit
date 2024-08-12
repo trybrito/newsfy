@@ -1,0 +1,29 @@
+[33mcommit 66ee6248aca08296f76a26200a5110947e1fa19b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Thiago Raniery Ignacio Brito <thiagobritotrs@gmail.com>
+Date:   Mon Aug 12 01:47:33 2024 -0300
+
+    finishes the main featured news stylish
+
+[33mcommit 497f49adb5c27e4464bbcb6d40900de3e272820e[m
+Author: Thiago Raniery Ignacio Brito <thiagobritotrs@gmail.com>
+Date:   Mon Aug 12 01:12:37 2024 -0300
+
+    adds linear gradient to the main featured news
+
+[33mcommit e720b59ab93cea5366a76b5b42e8e631b39f3c45[m
+Author: Thiago Raniery Ignacio Brito <thiagobritotrs@gmail.com>
+Date:   Sun Aug 11 23:23:17 2024 -0300
+
+    adds featured section
+
+[33mcommit 3fb3a03109a11e71db868d6dd721bad652cd4da4[m
+Author: Thiago Raniery Ignacio Brito <thiagobritotrs@gmail.com>
+Date:   Sun Aug 11 23:05:23 2024 -0300
+
+    adds header and logo
+
+[33mcommit 9db3f6daa62025f9ee63f289e9d94f09a24c7e90[m
+Author: Thiago Raniery Ignacio Brito <thiagobritotrs@gmail.com>
+Date:   Sun Aug 11 22:33:17 2024 -0300
+
+    initial commit
