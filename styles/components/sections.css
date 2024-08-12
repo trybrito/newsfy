@@ -1,3 +1,26 @@
+section header {
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 1.2rem 2.4rem;
+
+  font: var(--text-span);
+
+  a {
+    justify-self: end;
+    align-items: center;
+    gap: 0.8rem;
+
+    span {
+      background-image: url(../../assets/icons/ArrowRight.svg);
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    &:hover span {
+      background-image: url(../../assets/icons/ArrowRight-hover.svg);
+    }
+  }
+}
+
 .featured-section {
   .news-card {
     position: relative;
@@ -43,6 +66,42 @@
         overflow: hidden;
         text-overflow: ellipsis;
       }
+    }
+  }
+}
+
+.weekly-top-news {
+  & > div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  figure {
+    position: relative;
+
+    span {
+      position: absolute;
+      top: 0.8rem;
+      left: 0.8rem;
+    }
+
+    img {
+      height: 16rem;
+      object-fit: cover;
+    }
+
+    p {
+      max-height: 7rem;
+      overflow: hidden;
+      /* text-overflow: ellipsis; */
+
+      display: -webkit-box;
+      display: -moz-box;
+      -webkit-line-clamp: 3;
+      -moz-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+
+      margin-top: 0.8rem;
     }
   }
 }
