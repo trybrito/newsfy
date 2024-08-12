@@ -11,6 +11,7 @@
 
   --brand-color-light: #60a5fa;
   --brand-color-dark: #1d4ed8;
+  --brand-color-dark-hover: #123596;
   --bg-color: #0f172a;
   --stroke-color: #1e293b;
   --text-color-primary: #f1f5f9;
@@ -22,6 +23,7 @@
   --heading2: 800 1.6rem/140% var(--font-family);
   --heading3: 800 1.4rem/140% var(--font-family);
   --span: 600 1.4rem/145% var(--font-family);
+  --content-tag: 500 1rem/120% var(--font-family);
   --text: 400 1.6rem/140% var(--font-family);
   --text-sm: 400 1.4rem 160% var(--font-family);
 }
@@ -69,4 +71,23 @@ main {
   max-width: 128rem;
   padding-inline: 3.2rem;
   margin-inline: auto;
+}
+
+.content-tag {
+  display: inline-block;
+  padding: 0.6rem 0.8rem;
+  font: var(--content-tag);
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+
+  background-color: var(--brand-color-dark);
+  border-radius: 0.4rem;
+  transition: 200ms linear;
+  cursor: pointer;
+
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+
+  &:hover {
+    background-color: var(--brand-color-dark-hover);
+  }
 }
