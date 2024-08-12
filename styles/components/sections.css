@@ -1,7 +1,24 @@
 .featured-section {
-  img {
-    height: 100%;
-    object-fit: cover;
+  .news-card {
+    position: relative;
+    overflow: hidden;
     border-radius: 0.4rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        var(--linear-gradient) 100%
+      );
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
