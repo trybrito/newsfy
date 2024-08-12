@@ -55,3 +55,18 @@ a {
 a:hover {
   color: var(--brand-color-light);
 }
+
+.spacing-container {
+  max-width: 128rem;
+  padding-inline: 3.2rem;
+  margin-inline: auto;
+}
+
+/* Utility First Classes */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
