@@ -11,8 +11,16 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.gap-15 {
+  gap: 1.5rem;
+}
+
 .gap-16 {
   gap: 1.6rem;
+}
+
+.gap-32 {
+  gap: 3.2rem;
 }
 
 .text-2xl {
